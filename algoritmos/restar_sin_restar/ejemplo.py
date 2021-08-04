@@ -2,15 +2,17 @@ def subtraction_v1(num1, num2):
   return num1 + (num2 * -1)
 
 
+# solucion profe con casos de uso agregados
+
 def subtraction_v2(num1, num2):
-  value = 0
+  result = 0
 
   if num1 > num2:
-    value = increment_value(num1, num2, value)
+    result = increment_value(num1, num2, 0)
   elif num2 > num1:
-    value = increment_value(num2, num1, value)
-    return value * -1
-  return value
+    result = increment_value(num2, num1, 0)
+    return result * -1
+  return result
 
 
 def increment_value(num1, num2, value):

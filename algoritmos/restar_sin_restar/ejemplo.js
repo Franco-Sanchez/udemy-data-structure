@@ -1,16 +1,20 @@
 const subtractionV1 = (num1, num2) => num1 + (num2 * -1);
 
+
+// solucion profe con casos de uso agregados
+
 const subtractionV2 = (num1, num2) => {
-    let value = 0;
+    let result = 0;
 
     if(num1 > num2) {
-        value = incrementValue(num1, num2, value);
+        result = incrementValue(num1, num2, 0);
     } else if(num2 > num1) {
-        value = incrementValue(num2, num1, value);
-        return value * -1;
+        result = incrementValue(num2, num1, 0);
+        return result * -1;
     }
-    return value;
+    return result;
 };
+
 
 const incrementValue = (num1, num2, value) => {
     while(num1 > num2) {
@@ -19,6 +23,7 @@ const incrementValue = (num1, num2, value) => {
     }
     return value;
 }
+
 
 subtractionV1(14, 10); // 4
 subtractionV1(-10, 14); // -24
