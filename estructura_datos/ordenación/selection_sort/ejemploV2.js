@@ -16,3 +16,4 @@ const selectionSort = (a) => {
 
 console.log(selectionSort([2, 7, 1, 5, 0, 4, 3, 8, -1, 2, 4]));
 console.log(selectionSort([2, 7, 1, 4, 3, 5, 0, 8, 2, -1, 2]));
+console.log(selectionSort([7, 2, 1, 4, 0, 5, 6, 8, 2]));

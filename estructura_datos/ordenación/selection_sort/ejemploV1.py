@@ -21,6 +21,7 @@ def selection_sort(l):
 def run():
     print(selection_sort([2, 7, 1, 5, 0, 4, 3, 8, -1, 2, 4]))
     print(selection_sort([2, 7, 1, 4, 3, 5, 0, 8, 2, -1, 2]))
+    print(selection_sort([7, 2, 1, 4, 0, 5, 6, 8, 2]))
 
 
 if __name__ == "__main__":
